@@ -31,5 +31,6 @@ def find_the_cheese(array)
   array.find do |string|
       cheese_types.include?(string)
 end
+end
 
 find_the_cheese(soup)
