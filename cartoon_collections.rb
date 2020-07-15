@@ -32,7 +32,7 @@ def find_the_cheese(array)
     if cheese_types.include?(string)
       return string
     else
-      return NIL
+      retur
     end
   end
 end
