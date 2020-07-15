@@ -33,6 +33,7 @@ def find_the_cheese(array)
       return string
     else
       return nil
+    end
 end
 
 find_the_cheese(soup)
