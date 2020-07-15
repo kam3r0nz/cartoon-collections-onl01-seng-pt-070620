@@ -29,6 +29,9 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 def find_the_cheese(array)
   array.each do |string|
     if cheese_types.include?(string)
+      return string
+    else
+      return nil
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
