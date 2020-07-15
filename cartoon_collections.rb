@@ -1,7 +1,6 @@
-def roll_call_dwarves(name)
-  i = 0
-  while i < name.length
-  i += 1
+def roll_call_dwarves(dwarf)
+  dwarf.each.with_index(1) do |name, num|
+  dwarf << "#{num}. #{name}"
 end
 
 def summon_captain_planet# code an argument here
