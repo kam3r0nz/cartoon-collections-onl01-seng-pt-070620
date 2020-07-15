@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf)
-  roll_call = []
+  roll_call = ""
   dwarf.each.with_index(1) do |name, num|
   dwarf << "#{num}. #{name}"
 end
