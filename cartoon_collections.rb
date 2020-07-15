@@ -32,6 +32,7 @@ def find_the_cheese(array)
     if cheese_types.include?(string)
       return string
     end
+  end
 end
 
 find_the_cheese(soup)
