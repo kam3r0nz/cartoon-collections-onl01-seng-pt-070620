@@ -33,6 +33,5 @@ def find_the_cheese(array)
       return string
     end
 end
-end
 
 find_the_cheese(soup)
